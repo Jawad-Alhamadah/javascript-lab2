@@ -167,3 +167,31 @@ if ( isAllowedFlavor && isAllowedTopping && isAllowedVessel){
     console.log(`I'd like two scoops of ${flavor} ice cream in a ${ vessel} with ${toppings}.`)
 }
 
+
+
+//Challenge 1
+let word = "steven"
+let reverse = ""
+if (word.length <=3){
+    console.log("word is too short");}
+
+    else {
+        for (let i =  word.length-1; i >= 0; i--) {
+            console.log(word[i])
+            
+        }
+}
+
+
+//Challenge 2 
+let sentence = "this is a sentnece to check if a word exists in a line"
+let phrase = "check"
+let isIncluded = sentence.includes(phrase)
+
+if(isIncluded){
+    console.log( "the word exists")
+} else{
+ 
+        console.log( "the word does not exist")
+  
+}
